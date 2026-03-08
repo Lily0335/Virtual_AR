@@ -1,3 +1,4 @@
+import React from "react";
 import { BotMessageSquare } from "lucide-react";
 import { BatteryCharging } from "lucide-react";
 import { Fingerprint } from "lucide-react";
