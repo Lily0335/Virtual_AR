@@ -6,11 +6,16 @@ const HeroSection = () => {
     <div className="flex flex-col items-center mt-6 lg:mt-20">
         <h1 className="text-4xl lg:text-6xl font-bold text-center tracking-wide">
             VirtualR build tools 
-            <span>
+            <span className='bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text'>
+            {" "} 
             for developers
             </span>
 
         </h1>
+        <p className='mt-10 text-lg text-center text-neutral-500 max-w-4xl'>
+            Empowering developers with cutting-edge tools to create immersive virtual reality experiences. Our platform provides a seamless development environment, robust APIs, and comprehensive documentation to help you bring your VR projects to life. Whether you're building games, simulations, or interactive applications, our tools are designed to enhance your creativity and streamline your workflow.
+
+        </p>
     </div>
   )
 }
